@@ -23,7 +23,7 @@ export default function Login() {
 
   return (
     <div className=" w-screen items-center justify-center h-screen flex">
-      <div className="w-full flex-col max-w-lg bg-base-300 animate-fade-up flex items-center justify-center rounded-xl p-14">
+      <div className="w-full flex-col max-w-lg bg-base-200 animate-fade-up flex items-center justify-center rounded-xl p-14">
         <h1 className="text-4xl font-bold">Login</h1>
         <div className="flex mt-5 flex-col">
           <label className="label label-text" htmlFor="Email">
