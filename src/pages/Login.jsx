@@ -53,7 +53,7 @@ export default function Login() {
             </button>
           </div>
           {success && (
-            <div className="alert alert-success animate-fade">
+            <div className="alert alert-success mt-2 animate-fade">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="stroke-current shrink-0 h-6 w-6"
