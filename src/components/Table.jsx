@@ -11,8 +11,8 @@ export default function Table({ users }) {
               </label>
             </th>
             <th>Name</th>
-            <th>Birth Date</th>
-            <th>Company</th>
+            {/* <th>Birth Date</th> */}
+            {/* <th>Company</th> */}
             <th>Height</th>
             <th>Age</th>
             <th>Weight</th>
@@ -31,7 +31,7 @@ export default function Table({ users }) {
               <td>
                 <div className="flex items-center space-x-3">
                   <div className="avatar">
-                    <div className="mask mask-squircle w-12 h-12">
+                    <div className="mask mask-circle w-12 h-12 opacity-50">
                       <img src={user.image} alt="Avatar" />
                     </div>
                   </div>
@@ -43,14 +43,14 @@ export default function Table({ users }) {
                   </div>
                 </div>
               </td>
-              <td>{user.birthDate}</td>
-              <td>
+              {/* <td>{user.birthDate}</td> */}
+              {/* <td>
                 {user.company.name}
                 <br />
                 <span className="badge badge-ghost badge-sm">
                   {user.company.title}
                 </span>
-              </td>
+              </td> */}
               <td>{user.height} cm</td>
               <td>{user.age}</td>
               <td>{user.weight} kg</td>

@@ -3,17 +3,19 @@ import { Link } from "react-router-dom";
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
-    <div className=" flex w-screen h-screen items-center justify-center gap-52">
+    <div className=" flex w-screen h-screen items-center justify-center gap-52 px-20">
       <div className=" flex flex-col w-full max-w-xl animate-fade-right">
-        <h1 className="text-5xl font-bold tracking-tighter">
-          Revolutionize Hospital Management
+        <h1 className="text-7xl font-bold tracking-tighter text-base-content/40">
+          Simplify
         </h1>
-        <div className="w-full max-w-lg mt-8">
+        <h1 className="text-7xl font-bold tracking-tighter">Streamline</h1>
+        <h1 className="text-7xl font-bold tracking-tighter text-base-content/40">
+          Succeed.
+        </h1>
+        <div className="w-full max-w-lg mt-5 leading-relaxed">
           <p>
-            Upgrade your hospital's efficiency with our comprehensive Management
-            System. From patient records to analytics, streamline operations in
-            one platform. Focus on excellent care while we handle the rest. Join
-            us in shaping the future of healthcare management.
+            Enhance hospital efficiency: Streamline operations, Focus on care.
+            Join us in shaping Healthcare management's future.
           </p>
         </div>
         <div>
