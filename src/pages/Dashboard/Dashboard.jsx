@@ -2,7 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 
 export default function Dashboard() {
   return (
-    <div className="drawer lg:drawer-open">
+    <main className="drawer lg:drawer-open">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col pt-10">
         {/* Page content here */}
@@ -14,7 +14,7 @@ export default function Dashboard() {
           Open drawer
         </label>
       </div>
-      <div className="drawer-side">
+      <aside className="drawer-side">
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
         <ul className="p-4 menu w-80 h-full pt-28 bg-base-200 text-base-content text-lg">
           <li>
@@ -227,7 +227,7 @@ export default function Dashboard() {
             </Link>
           </li>
         </ul>
-      </div>
-    </div>
+      </aside>
+    </main>
   );
 }
